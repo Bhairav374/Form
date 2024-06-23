@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM 1</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+form{
+    box-shadow:2px 2px 2px 2px grey;
+    margin:10px 500px;
+    padding:40px;
+    border:1px solid grey;
+    display:flex;
+    flex-direction:column;
+    width:350px;
+    border-radius:25px;
+    padding-top:20px;
+}
+h1{
+    margin-bottom:40px;
+}
+label{
+    color:grey;
+    margin-bottom:-15px;
+}
+input{
+    height:35px;
+    background-color:#F5F5F5;
+    border-radius:5px;
+    padding-left:3px;
+}
+button{
+    margin:20px;
+    height:35px;
+    border:0px;
+    border-radius:25px;
+    color:white;
+}
+#SignUp{
+    background-color:#32de84;
+}
+#SignUpGoogle{
+    background-color:black;
+}
+div{
+    padding-left:120px;
+}
+h5{
+    padding-left:40px;
+}
+span{
+    color:#32de84;
+}
+#SignUp:hover{
+    background-color:#17B169;
+}
+#SignUpGoogle:hover{
+    background-color: #494F55;
+}
+span:hover{
+    /* font-size:15px; */
+    color:#17B169;
+    cursor:default;
+
+}
+    </style>
+</head>
+<body>
+    
+    <form>
+        <h1>Create an Account</h1>
+        <label for="fname">Full Name</label><br>
+        <input type="text" placeholder="Enter Name" name="fname" id="fname"><br>
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="Enter Email" name="email" id="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" placeholder="Enter Password" name="password" id="password"><br>
+        <label for="phonenumber">Phone Number</label><br>
+        <input type="tel" placeholder="Phone Number" id="phonenumber" name="phonenumber"><br>
+        <button id="SignUp">Sign Up</button>
+        <div>OR</div>
+        <button id="SignUpGoogle">Sign Up with google</button>
+        <h5>Already have an Account? <span>Login</span></h5>
+
+    </form>
+</body>
+</html>
